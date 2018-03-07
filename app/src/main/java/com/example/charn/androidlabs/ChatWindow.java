@@ -67,7 +67,7 @@ public class ChatWindow extends Activity {
                 result = inflater.inflate(R.layout.chat_row_outgoing, null);
 
             TextView message = (TextView) result.findViewById(R.id.message_text);
-            message.setText(getItem(position)); // get the string at position
+            message.setText(getItem(position));
             return result;
 
         }
