@@ -1,6 +1,4 @@
 package com.example.charn.androidlabs;
-
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -89,6 +87,8 @@ public class StartActivity extends Activity {
             Log.i(ACTIVITY_NAME, "Returned to StartActivity.onActivityResult -in request code ==  5");
             String messagePassed = data.getStringExtra("Response");
             Toast.makeText(StartActivity.this, messagePassed,Toast.LENGTH_LONG).show();
+            
+
         }
 
 
